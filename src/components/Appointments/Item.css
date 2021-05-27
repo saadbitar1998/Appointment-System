@@ -1,0 +1,27 @@
+
+.time {
+    background-color:#3acbf7;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    padding: 10;
+    color:white;
+}
+
+.time * {
+    padding: 100;
+}
+
+.accept-button, .reject-button {
+    background-color:#3acbf7;
+    color: white;
+    padding: 10px;
+
+}
+
+.accept-button:hover, .reject-button:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #6568F4;
+    transition: 250ms;
+}
